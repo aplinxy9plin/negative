@@ -1,4 +1,4 @@
-const URL = "http://localhost:8080";
+const URL = `http://${window.location.host}:8080`;
 
 const login = async (username: string, password: string) => {
   try {
